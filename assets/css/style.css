@@ -2717,7 +2717,12 @@ img {
 }
 
 .site-footer .contact-widget ul {
-  margin-top: 25px;
+  /* margin-top: 25px; */
+  width: 50%;
+  float: left;
+}
+.site-footer .contact-widget ul:last-child {
+  padding-left: 25px;
 }
 
 .site-footer .contact-widget ul li {
@@ -3024,6 +3029,7 @@ img {
 
 .service-section .service-grids {
   margin: 0 -15px;
+  display: flex;
 }
 
 @media (max-width: 767px) {
