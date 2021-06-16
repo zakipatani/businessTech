@@ -3861,7 +3861,7 @@ img {
 }
 
 .quote-section .right-col, .quote-section-s2 .right-col {
-  background: url("../images/quote-bg.jpg") center center/cover no-repeat local;
+  background: url("../images/service-single/lars-kuczynski-1MClItU5AbI-unsplash-1-1140x641.jpg") center center/cover no-repeat local;
   position: relative;
 }
 
@@ -4881,12 +4881,16 @@ img {
   font-size: 14px;
   font-size: 0.875rem;
   color: #fff;
+  position: relative;
+  padding-left: 25px;
 }
 
 .contact-pg-section .office-info li i {
   color: #009999;
   display: inline-block;
-  padding-right: 5px;
+  padding-right: 0;
+  position: absolute;
+  left: 0;
 }
 
 .contact-pg-section .office-info ul > li + li {
@@ -7365,6 +7369,48 @@ img {
 
 .shop-single-section .slider-nav .slick-slide:focus {
   outline: none;
+}
+
+#header .search-contact .contact a{
+	display:none;
+}
+
+.hero-slider .swiper-container .slide-btns{
+	display:none;
+}
+
+.about-us-section .details .btns{
+	display:none;
+}
+
+.quote-section .details .btns{
+	display:none;
+}
+
+.site-footer .social-icons li{
+	display:none;
+}
+.site-footer .social-icons li:nth-of-type(3n) {
+	display:block;
+} 
+.site-footer .about-widget .social-icons ul > li + li
+{
+	margin-left:0px;
+}
+
+.about-us-section ul li {
+  position: relative;
+  padding-left: 20px;
+}
+.about-us-section ul li:before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  background-color: #009999;
+  position: absolute;
+  left: 0;
+  top: 6px;
+  border-radius: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
